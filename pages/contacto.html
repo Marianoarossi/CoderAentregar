@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../icons/favicom.png" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+
+<body class=" GridLayaut">
+
+    <header class="header">
+        <div class="header__div1">
+            <img class="card__header" src="../images/Logo_MisRecetas.png" alt="Logo de mis recetas">
+        </div>
+        <div class="header__div2">
+            <nav class="nav">
+                <ul class="nav__lista">
+                    <li class="nav__li">
+                        <a class="nav__links " href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__links" href="./recetas.html">Recetas</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__links" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__links" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav__li">
+                        <a class="nav__links nav__links--active" href="./contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav__li">
+                        <input class="nav__search" type="search" placeholder="Buscar">
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main"> 
+
+        <section class="contactosRedes">
+            <p class="contactoRedes__parrafo">Seguinos en nuestras redes:</p>
+            <a class="contactosRedes__link" href="https://www.facebook.com/"><img class="contactosRedes__img"
+                    src="../icons/facebooko.png" alt="Link a Facebook"></a>
+
+            <a class="contactosRedes__link" href="https://www.youtube.com/"><img class="contactosRedes__img"
+                    src="../icons/youtubeo.png" alt="Link a Youtube"></a>
+
+            <a class="contactosRedes__link" href="https://www.instagram.com/"><img class="contactosRedes__img"
+                    src="../icons/instagramo.png" alt="Link a instagram"></a>
+        </section>
+
+        <div class="mapa">
+
+            <H1 class="mapa__titulo">Te compartimos nuestra ubicacion para que nos visites </H1>
+            <iframe class="mapa__link"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220.61907098891487!2d-58.38144487035969!3d-34.6036871420009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1642789896614!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+
+        </div>
+        <div class="comentarios">
+            <p class="textoUbicanos"> Todos nuestras preparaciones y emplatados fueron realizadas por el Chef Mariano
+                Rossi.
+                Para comunicarte con la producción de la web podes realizarlo vía llamada de lun a vie de 14hs a 18hs
+                al +54 011 45683215 y vía mail a la dirección misrecetas@dominio.com.ar.
+            </p>
+        </div>
+        <div class="form+titulo">
+            <h2 class="tituloFormulario">Formulario de contacto</h2>
+            <section class="formulario">
+                <article>
+                    <table class="tabla__form" border="2">
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <form action="#">
+                                        <label for="nombre">
+                                            Nombre: <br> <input type="text" placeholder="Ingresa tu nombre">
+                                        </label>
+                                        <br>
+                                        <label for="apellido">
+                                            Apellido: <br><input type="text" placeholder="Ingresa tu apellido">
+                                        </label>
+                                        <br>
+                                        <label for="email">
+                                            Email: <br><input type="email" placeholder="Ingresa tu email">
+                                        </label>
+                                        <div>
+                                            <p>Sexo:</p>
+                                            <div>
+                                                Masculino
+                                                <input type="radio" name="sexo" value="masculino">
+                                            </div>
+                                            <div> Femenino
+                                                <input type="radio" name="sexo" value="femenino">
+                                            </div>
+                                        </div>
+
+                                        <p> ¿Queres recibir informacion de nosotros?</p>
+
+                                        <input type="checkbox" name="suscrito" value="si">
+
+                                        <p>¿Donde nos conociste?</p>
+                                        <select name="referencia" id="referencia">
+                                            <option value="youtube"> Youtube</option>
+                                            <option value="facebook"> Facebook</option>
+                                            <option value="instagram"> Instagram</option>
+                                            <option value="newsletter">Newsletter</option>
+                                        </select>
+                                        <br><br>
+
+                                        <label for="comentarios">
+                                            Comentarios: <br>
+                                            <textarea placeholder="Comentarios" cols="30" rows="3"></textarea>
+                                        </label>
+                                        <div>
+                                            <input type="submit" value="Enviar">
+                                            <input type="reset" value="Borrar">
+                                        </div>
+                                    </form>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br><br>
+
+                </article>
+            </section>
+        </div>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__Contenedor">
+            <div class="footer__logo">
+                <a class="footer__linkRedes" target="_blank" href="../index.html"><img class="footer__bannerLogo"
+                        src="../images/Logo_MisRecetas.png" alt="Logo de mis recetas"></a>
+            </div>
+            <div class="footer__credito">
+                <ul class="footer__lista">
+                    <li>
+                        <p>www.misrecetas.com.ar</p>
+                    </li>
+                    <li class="footer__itemsL">
+                        <p>Copyrigth by Mariano Rossi</p>
+                    </li>
+                    <li>
+                        2022
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__Webs">
+                <ul class="footer__itemsL">
+                    <li class="footer__itemsL">
+                        <p class="parrafoSeguinos">Seguinos en nuestras redes!</p>
+                    </li>
+                    <li class="ListaRED">
+                        <ul class="footer__listaRedes">
+                            <li class="footer__itemsL">
+                                <a class="footer__Lred" target="_blank" href="https://www.facebook.com/">
+                                    <img class="footer__logoRedes" src="../icons/facebooko.png"
+                                        alt="Link a Facebook"></a>
+                            </li>
+                            <li class="footer__itemsL">
+                                <a class="footer__Lred" target="_blank" href="https://www.youtube.com/"><img
+                                        class="footer__logoRedes" src="../icons/youtubeo.png" alt="Link a YouTube"></a>
+                            </li>
+                            <li class="footer__itemsL">
+                                <a class="footer__linkRedes" target="_blank" href="https://www.instagram.com/"><img
+                                        class="footer__logoRedes" src="../icons/instagramo.png"
+                                        alt="Link a instagram"></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
